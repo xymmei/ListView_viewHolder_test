@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolBar2"
+        android:background="@android:color/holo_blue_light"
+        android:layout_weight="1"/>
+    <com.example.a16047.listview_viewholder_test.MyListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mListView1"
+        android:layout_weight="9">
+
+    </com.example.a16047.listview_viewholder_test.MyListView>
+
+</LinearLayout>

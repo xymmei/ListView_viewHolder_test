@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="9"
+        >
+        <!--分隔线设置&#45;&#45;颜色、宽度、透明-->
+        <!--android:divider="@color/colorPrimaryDark"
+        android:dividerHeight="10dp"
+        android:divider="@null"-->
+        <!--隐藏滚动条-->
+        <!--android:scrollbars="none"-->
+        <!--取消点击效果-->
+        <!--android:listSelector="#00000000"-->
+    </ListView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/empty_view"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher"
+            android:layout_weight="9"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button1"
+            android:text="btnAdd"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/button"
+    android:text="btnAdd"
+    android:layout_weight="1"/>
+</LinearLayout>
